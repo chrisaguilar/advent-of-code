@@ -1,6 +1,6 @@
 const fs = require('fs');
-const { promisify } = require('util');
 const { resolve } = require('path');
+const { promisify } = require('util');
 
 const readFile = promisify(fs.readFile);
 
