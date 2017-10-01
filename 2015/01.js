@@ -6,7 +6,7 @@ const readFile = promisify(fs.readFile);
 
 async function main() {
     try {
-        const input = await readFile(resolve(__dirname, '2015_01.txt'), 'utf8');
+        const input = await readFile(resolve(__dirname, '01.txt'), 'utf8');
 
         /*
         --- Day 1: Not Quite Lisp ---
